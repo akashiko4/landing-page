@@ -400,6 +400,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   width: 100%;
   max-width: 1400px;
   height: 72px;
@@ -410,7 +411,6 @@ ul {
 .header__logo {
   width: 79px;
   height: 27px;
-  margin: 0 582px 0 150px;
 }
 
 .header__menu ul {
