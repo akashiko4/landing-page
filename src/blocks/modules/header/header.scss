@@ -1,18 +1,15 @@
 .header {
 
     &__wrapper {
-        display: flex;
-        flex-direction: row;
+        @include flexbox-container;
+
         align-items: center;
         justify-content: space-around;
-        width: 100%;
-        max-width: 1400px;
         height: 72px;
-        margin: 0 auto;
         background: $color-secondary;
     }
-    &__logo {
-        width: 79px;
+    &__logo-image {
+        max-width: 79px;
         height: 27px;
     }
     &__menu {
@@ -49,3 +46,4 @@
         }
     }
 }
+

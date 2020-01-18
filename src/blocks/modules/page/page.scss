@@ -1,0 +1,22 @@
+.page {
+    @include flexbox-container;
+
+    align-items: center;
+    background: #9a9a9a;
+    height: 713px;
+    &__wrapper {
+        @include flex-wrapper;
+
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1111px;
+        height: 400px;
+    }
+    &__brand-bar {
+        width: 100%;
+        max-width: 515px;
+    }
+    &___title {
+        margin-top: 33px;
+    }
+}

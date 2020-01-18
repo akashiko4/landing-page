@@ -399,17 +399,17 @@ ul {
 .header__wrapper {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
   width: 100%;
   max-width: 1400px;
-  height: 72px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  height: 72px;
   background: #000000;
 }
 
-.header__logo {
-  width: 79px;
+.header__logo-image {
+  max-width: 79px;
   height: 27px;
 }
 
@@ -445,6 +445,41 @@ ul {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+  background: #9a9a9a;
+  height: 713px;
+}
+
+.page__wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1111px;
+  height: 400px;
+}
+
+.page__brand-bar {
+  width: 100%;
+  max-width: 515px;
+}
+
+.page___title {
+  margin-top: 33px;
+}
+
+.logo___image {
+  width: 100%;
 }
 
 @media screen and (min-width: 36rem) {
