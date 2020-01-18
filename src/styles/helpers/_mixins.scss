@@ -11,3 +11,11 @@
     width: 100%;
     margin: 0 auto;
 }
+@mixin flex-sign-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 360px;
+}
