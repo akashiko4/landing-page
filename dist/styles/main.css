@@ -390,7 +390,7 @@ ul {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -447,7 +447,7 @@ ul {
   font-weight: 400;
 }
 
-.page {
+.brand {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -457,7 +457,7 @@ ul {
   background: #9a9a9a;
 }
 
-.page__wrapper {
+.brand__wrapper {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -470,16 +470,16 @@ ul {
   margin-bottom: 133px;
 }
 
-.page__brand-bar {
+.brand__brand-bar {
   width: 100%;
   max-width: 515px;
 }
 
-.page__logo {
+.brand__logo {
   margin-bottom: 33px;
 }
 
-.page__title {
+.brand__title {
   color: #ffffff;
   font-family: "Raleway";
   font-size: 36px;
@@ -489,7 +489,7 @@ ul {
   position: relative;
 }
 
-.page__title:before {
+.brand__title:before {
   content: "";
   position: absolute;
   top: 106px;
@@ -501,7 +501,7 @@ ul {
   background: #ffffff;
 }
 
-.page__subtitle {
+.brand__subtitle {
   opacity: 0.8;
   color: #ffffff;
   font-family: "Raleway";
@@ -511,14 +511,14 @@ ul {
   margin-bottom: 44px;
 }
 
-.page__button {
+.brand__button {
   width: 135px;
   height: 42px;
   border: 2px solid #ffffff;
   background: #9a9a9a;
 }
 
-.page__button:hover {
+.brand__button:hover {
   border: 0;
   background: #ff9b51;
 }
@@ -529,12 +529,8 @@ ul {
 }
 
 .sign-up__title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 360px;
+  text-align: center;
+  line-height: 54px;
   height: 54px;
   background: #f5f5f5;
   color: #333333;
@@ -589,6 +585,46 @@ ul {
   background: #000000;
 }
 
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.futures-one {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  background-color: #f5f5f5;
+}
+
+.futures-one__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 147px;
+  padding-bottom: 138px;
+}
+
+.futures-one__info {
+  width: 100%;
+  max-width: 476px;
+}
+
+.tab-bar__elem {
+  width: 112px;
+  height: 112px;
+  background-color: #333333;
+}
+
 .logo___image {
   width: 100%;
 }
@@ -599,6 +635,55 @@ ul {
   font-size: 15px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  height: 105px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
+  background-color: #ffffff;
+}
+
+.social__info {
+  width: 100%;
+  max-width: 360px;
+  font-family: "Open Sans";
+}
+
+.social__title {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.social__subtitle {
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.social__network {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 634px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.fa {
+  color: #cccccc;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 36rem) {
