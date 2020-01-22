@@ -390,7 +390,7 @@ ul {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -586,17 +586,21 @@ ul {
 }
 
 .main {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  max-width: 1400px;
 }
 
+/* futures-one block */
+
 .futures-one {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  max-width: 1400px;
   background-color: #f5f5f5;
 }
 
@@ -619,11 +623,73 @@ ul {
   max-width: 476px;
 }
 
+.futures-one__button {
+  width: 121px;
+  height: 46px;
+  background-color: #ff9b51;
+  border: 0;
+  border-radius: 3px;
+}
+
+.futures-one__button:hover {
+  background-color: #000000;
+}
+
 .tab-bar__elem {
   width: 112px;
   height: 112px;
   background-color: #333333;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 112px;
 }
+
+.tab-bar__elem:hover {
+  background-color: #ff9b51;
+}
+
+.info {
+  width: 100%;
+  max-width: 476px;
+}
+
+.info__wrapper {
+  margin-bottom: 51px;
+}
+
+.info__title {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 52px;
+}
+
+.info__subtitle {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 26px;
+  text-align: justify;
+}
+
+.subtitle__span {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* END futures-one block */
+
+/* futures-two block */
+
+/* END future-two block*/
 
 .logo___image {
   width: 100%;
