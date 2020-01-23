@@ -596,11 +596,6 @@ ul {
 /* futures-one block */
 
 .futures-one {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  max-width: 1400px;
   background-color: #f5f5f5;
 }
 
@@ -621,6 +616,19 @@ ul {
 .futures-one__info {
   width: 100%;
   max-width: 476px;
+}
+
+.futures-one__wrapper-info {
+  margin-bottom: 51px;
+}
+
+.futures-one__title {
+  margin-bottom: 52px;
+}
+
+.futures-one__subtitle {
+  margin-bottom: 26px;
+  text-align: justify;
 }
 
 .futures-one__button {
@@ -650,32 +658,7 @@ ul {
 
 .tab-bar__elem:hover {
   background-color: #ff9b51;
-}
-
-.info {
-  width: 100%;
-  max-width: 476px;
-}
-
-.info__wrapper {
-  margin-bottom: 51px;
-}
-
-.info__title {
-  color: #000000;
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 52px;
-}
-
-.info__subtitle {
-  color: #86878b;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 26px;
-  text-align: justify;
+  cursor: pointer;
 }
 
 .subtitle__span {
@@ -688,6 +671,66 @@ ul {
 /* END futures-one block */
 
 /* futures-two block */
+
+.futures-two__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 107px;
+  padding-bottom: 110px;
+}
+
+.futures-two__img {
+  width: 453px;
+  height: 303px;
+  background-color: #9a9a9a;
+}
+
+.futures-two__info {
+  width: 100%;
+  max-width: 434px;
+}
+
+.futures-two__title {
+  margin-bottom: 61px;
+  position: relative;
+}
+
+.futures-two__title::before {
+  content: "";
+  position: absolute;
+  top: 46px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 64px;
+  height: 2px;
+  background-color: #ff9b51;
+}
+
+.futures-two__subtitle {
+  margin-bottom: 46px;
+}
+
+.item__title {
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.item__subtitle {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
 
 /* END future-two block*/
 
@@ -749,6 +792,20 @@ ul {
 
 .fa {
   color: #cccccc;
+  font-weight: 400;
+}
+
+.info__title {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info__subtitle {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
   font-weight: 400;
 }
 

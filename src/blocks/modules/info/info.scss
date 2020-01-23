@@ -1,0 +1,14 @@
+.info {
+    &__title {
+        color: #000000;
+        font-family: $font-os;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        color: #86878b;
+        font-family: $font-os;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
