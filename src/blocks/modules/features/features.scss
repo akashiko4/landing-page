@@ -124,17 +124,38 @@
 
     }
 
+    &__item_margin_bottom {
+        margin-bottom: 42px;
+    }
     &__item {
-
+        position: relative;
+        margin-left: 70px;
     }
 }
 
+.fa-cloud-upload {
+    position: absolute;
+    color: $color-main;
+}
+
 .item {
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-left: -70px;
+        border: 2px solid $color-main;
+        border-radius: 50%;
+    }
     &__title {
-        color: #212121;
+        color: #000;
         font-family: $font-os;
         font-size: 14px;
         font-weight: 400;
+        margin-bottom: 12px;
     }
     &__subtitle {
         color: #86878b;
