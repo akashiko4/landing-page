@@ -763,6 +763,56 @@ ul {
 
 /* section futures-three */
 
+.futures-three {
+  background-color: #f5f5f5;
+}
+
+.futures-three__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1123px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 130px;
+}
+
+.futures-three__info {
+  width: 100%;
+  max-width: 473px;
+}
+
+.futures-three__title {
+  margin-top: 17px;
+  margin-bottom: 61px;
+  position: relative;
+}
+
+.futures-three__title::before {
+  content: "";
+  position: absolute;
+  top: 46px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 64px;
+  height: 2px;
+  background-color: #ff9b51;
+}
+
+.futures-three__subtitle {
+  margin-bottom: 25px;
+}
+
+.futures-three__img {
+  width: 453px;
+  height: 304px;
+  background-color: #9a9a9a;
+}
+
 /* END section futures-three */
 
 .logo___image {

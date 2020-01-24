@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1260ee24-1402-4c9c-948a-83831bc637cb" name="Default Changelist" comment="fix futures-two">
+    <list default="true" id="1260ee24-1402-4c9c-948a-83831bc637cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/maps/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/maps/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/features/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/features/features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/modules/features/features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/features/features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/social/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/social/social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/social/social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/social/social.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -30,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/modules/features/features.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="325">
+              <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -39,8 +32,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blocks/modules/features/features.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="169" column="7" lean-forward="true" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+            <state relative-caret-position="490">
+              <caret line="197" column="42" lean-forward="true" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/vendor/import/_smart-grid.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6453">
+              <caret line="277" column="23" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -230,12 +232,20 @@
       <workItem from="1579689145807" duration="1823000" />
       <workItem from="1579766698682" duration="7365000" />
       <workItem from="1579775600562" duration="3354000" />
-      <workItem from="1579845808158" duration="4318000" />
+      <workItem from="1579845808158" duration="5778000" />
     </task>
+    <task id="LOCAL-00001" summary="add futures-three struct">
+      <created>1579852887558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579852887558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16923000" />
+    <option name="totallyTimeSpent" value="18383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,7 +274,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960598" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960598" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960598" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960598" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500394" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -317,7 +327,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix futures-two" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix futures-two" />
+    <MESSAGE value="add futures-three struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="add futures-three struct" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Stylelint" />
@@ -371,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vendor/import/_smart-grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="277" column="23" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/header/header.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -414,15 +418,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/features/features.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="325">
+          <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vendor/import/_smart-grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6453">
+          <caret line="277" column="23" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/features/features.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="169" column="7" lean-forward="true" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+        <state relative-caret-position="490">
+          <caret line="197" column="42" lean-forward="true" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
         </state>
       </provider>
     </entry>
