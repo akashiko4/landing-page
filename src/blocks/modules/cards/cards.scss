@@ -1,0 +1,36 @@
+.cards {
+    @include row-flex;
+}
+.card {
+    @include flex-center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    &__icon {
+        @include flex-center;
+
+        width: 70px;
+        height: 70px;
+        border: 2px solid $color-main;
+        color: $color-main;
+        font-size: 32px;
+        border-radius: 50%;
+
+        margin-bottom: 29px;
+    }
+    &__title {
+        color: #333333;
+        font-family: $font-os;
+        font-size: 20px;
+        font-weight: 700;
+
+        margin-bottom: 25px;
+    }
+    &__subtitle {
+        text-align: center;
+        color: #86878b;
+        font-family: $font-os;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
