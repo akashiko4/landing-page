@@ -593,7 +593,7 @@ ul {
   max-width: 1400px;
 }
 
-/* futures-one block */
+/* section futures-one */
 
 .futures-one {
   background-color: #f5f5f5;
@@ -668,9 +668,9 @@ ul {
   font-weight: 400;
 }
 
-/* END futures-one block */
+/* END section futures-one */
 
-/* futures-two block */
+/* section futures-two */
 
 .futures-two__wrapper {
   display: flex;
@@ -727,8 +727,8 @@ ul {
   margin-left: 70px;
 }
 
-.fa-cloud-upload {
-  position: absolute;
+.fa-cloud-upload-alt {
+  font-size: 16px;
   color: #ff9b51;
 }
 
@@ -748,7 +748,7 @@ ul {
   color: #000;
   font-family: "Open Sans";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 12px;
 }
 
@@ -759,7 +759,11 @@ ul {
   font-weight: 400;
 }
 
-/* END future-two block*/
+/* END section future-two */
+
+/* section futures-three */
+
+/* END section futures-three */
 
 .logo___image {
   width: 100%;
@@ -817,9 +821,14 @@ ul {
   cursor: pointer;
 }
 
-.fa {
+.fab {
+  font-size: 48px;
   color: #cccccc;
-  font-weight: 400;
+}
+
+.fa-wifi {
+  font-size: 48px;
+  color: #cccccc;
 }
 
 .info__title {

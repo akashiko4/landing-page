@@ -3,7 +3,7 @@
     max-width: 1400px;
 }
 
-/* futures-one block */
+/* section futures-one */
 .futures-one {
     background-color: #f5f5f5;
     &__tab-bar {}
@@ -73,9 +73,9 @@
         font-weight: 400;
     }
 }
-/* END futures-one block */
+/* END section futures-one */
 
-/* futures-two block */
+/* section futures-two */
 .futures-two {
     &__wrapper {
         @include row-flex;
@@ -132,10 +132,9 @@
         margin-left: 70px;
     }
 }
-
-.fa-cloud-upload {
-    position: absolute;
-    color: $color-main;
+.fa-cloud-upload-alt {
+    font-size: 16px;
+    color: #ff9b51;
 }
 
 .item {
@@ -154,7 +153,7 @@
         color: #000;
         font-family: $font-os;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         margin-bottom: 12px;
     }
     &__subtitle {
@@ -164,5 +163,14 @@
         font-weight: 400;
     }
 }
+/* END section future-two */
 
-/* END future-two block*/
+/* section futures-three */
+.future-three {
+    &__wrapper {}
+    &__info {}
+    &__title {}
+    &__subtitle {}
+    &__img {}
+}
+/* END section futures-three */
