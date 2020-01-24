@@ -24,3 +24,18 @@
     width: 100%;
     max-width: 360px;
 }
+/* mixin price-card */
+@mixin price-text {
+    color: #86878b;
+    font-family: $font-os;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@mixin price-size {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 343px;
+    height: 40px;
+}
+/* END mixin price-card */
