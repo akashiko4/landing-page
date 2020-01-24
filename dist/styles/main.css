@@ -932,11 +932,6 @@ ul {
 }
 
 .our-process__title {
-  color: #212121;
-  font-family: "Raleway";
-  font-size: 36px;
-  font-weight: 400;
-  text-transform: uppercase;
   margin-bottom: 62px;
   position: relative;
 }
@@ -955,10 +950,6 @@ ul {
 }
 
 .our-process__subtitle {
-  color: #86878b;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
   margin-bottom: 80px;
 }
 
@@ -1005,6 +996,21 @@ ul {
 
 .card__subtitle {
   text-align: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.headline__title {
+  color: #212121;
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.headline__subtitle {
   color: #86878b;
   font-family: "Open Sans";
   font-size: 14px;

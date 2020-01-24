@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1260ee24-1402-4c9c-948a-83831bc637cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/maps/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/maps/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/_modules.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/_modules.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/helpers/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/helpers/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -23,38 +26,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/pricing/pricing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/card-price/card-price.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/card-price/card-price.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+            <state relative-caret-position="50">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
+        <entry file="file://$PROJECT_DIR$/src/views/pages/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="246">
+              <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/pricing/pricing.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/helpers/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -88,16 +105,22 @@
         <option value="$PROJECT_DIR$/src/blocks/modules/info/info.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/features/features.html" />
         <option value="$PROJECT_DIR$/src/blocks/modules/social/social.html" />
-        <option value="$PROJECT_DIR$/src/views/index.html" />
-        <option value="$PROJECT_DIR$/src/views/pages/page.html" />
         <option value="$PROJECT_DIR$/src/blocks/modules/features/features.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/social/social.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" />
-        <option value="$PROJECT_DIR$/src/blocks/_modules.scss" />
         <option value="$PROJECT_DIR$/src/styles/helpers/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/pricing/pricing.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/title/title.html" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/title/title.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" />
+        <option value="$PROJECT_DIR$/src/views/index.html" />
+        <option value="$PROJECT_DIR$/src/views/pages/page.html" />
+        <option value="$PROJECT_DIR$/src/blocks/_modules.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/pricing/pricing.html" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/card-price/card-price.html" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/card-price/card-price.scss" />
       </list>
     </option>
   </component>
@@ -143,7 +166,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="card-price" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
@@ -151,7 +174,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="our-process" type="462c0819:PsiDirectoryNode" />
+              <item name="pricing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
@@ -171,13 +194,6 @@
               <item name="landing-page" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing-page" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +282,7 @@
       <workItem from="1579689145807" duration="1823000" />
       <workItem from="1579766698682" duration="7365000" />
       <workItem from="1579775600562" duration="3354000" />
-      <workItem from="1579845808158" duration="11670000" />
+      <workItem from="1579845808158" duration="15055000" />
     </task>
     <task id="LOCAL-00001" summary="add futures-three struct">
       <created>1579852887558</created>
@@ -296,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579860588543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix style out-process">
+      <created>1579862501227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579862501227</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24275000" />
+    <option name="totallyTimeSpent" value="27660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +409,8 @@
     <MESSAGE value="fix style futures-three" />
     <MESSAGE value="add cards block, our-process struct" />
     <MESSAGE value="fix social" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix social" />
+    <MESSAGE value="fix style out-process" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix style out-process" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Stylelint" />
@@ -438,20 +462,6 @@
     <entry file="file://$PROJECT_DIR$/src/views/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/pages/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="43" column="70" lean-forward="true" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/features/features.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -497,38 +507,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/_modules.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="175">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/title/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/title/title.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.scss">
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="425">
+          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/pricing/pricing.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/pages/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="246">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/card-price/card-price.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/_modules.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        <state relative-caret-position="275">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/pricing/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/card-price/card-price.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/card-price/card-price.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>

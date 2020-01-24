@@ -11,12 +11,6 @@
         padding-bottom: 105px;
     }
     &__title {
-        color: #212121;
-        font-family: $font-raleway;
-        font-size: 36px;
-        font-weight: 400;
-        text-transform: uppercase;
-
         margin-bottom: 62px;
         position: relative;
         &::before {
@@ -33,11 +27,6 @@
         }
     }
     &__subtitle {
-        color: #86878b;
-        font-family: $font-os;
-        font-size: 14px;
-        font-weight: 400;
-
         margin-bottom: 80px;
     }
     &__cards {}
