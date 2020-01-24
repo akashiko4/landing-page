@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1260ee24-1402-4c9c-948a-83831bc637cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/_modules.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/_modules.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/social/social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/social/social.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/helpers/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/helpers/_mixins.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -18,38 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="321">
+              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -57,8 +35,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="496">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/helpers/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,14 +88,16 @@
         <option value="$PROJECT_DIR$/src/blocks/modules/info/info.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/features/features.html" />
         <option value="$PROJECT_DIR$/src/blocks/modules/social/social.html" />
-        <option value="$PROJECT_DIR$/src/blocks/_modules.scss" />
         <option value="$PROJECT_DIR$/src/views/index.html" />
         <option value="$PROJECT_DIR$/src/views/pages/page.html" />
-        <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" />
-        <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" />
-        <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" />
         <option value="$PROJECT_DIR$/src/blocks/modules/features/features.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/social/social.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" />
+        <option value="$PROJECT_DIR$/src/blocks/_modules.scss" />
+        <option value="$PROJECT_DIR$/src/styles/helpers/_mixins.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html" />
       </list>
     </option>
   </component>
@@ -159,9 +157,14 @@
               <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
               <item name="landing-page" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +266,7 @@
       <workItem from="1579689145807" duration="1823000" />
       <workItem from="1579766698682" duration="7365000" />
       <workItem from="1579775600562" duration="3354000" />
-      <workItem from="1579845808158" duration="9736000" />
+      <workItem from="1579845808158" duration="11670000" />
     </task>
     <task id="LOCAL-00001" summary="add futures-three struct">
       <created>1579852887558</created>
@@ -286,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579857103192</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix social">
+      <created>1579860588543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579860588543</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22341000" />
+    <option name="totallyTimeSpent" value="24275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +385,8 @@
     <MESSAGE value="add futures-three struct" />
     <MESSAGE value="fix style futures-three" />
     <MESSAGE value="add cards block, our-process struct" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cards block, our-process struct" />
+    <MESSAGE value="fix social" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix social" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Stylelint" />
@@ -424,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/_modules.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -448,31 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/vendor/import/_smart-grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/features/features.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -486,10 +469,10 @@
         <state relative-caret-position="-354" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.html">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="-379">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -500,10 +483,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vendor/import/_smart-grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/_modules.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/helpers/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/cards/cards.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
         </state>
       </provider>
     </entry>

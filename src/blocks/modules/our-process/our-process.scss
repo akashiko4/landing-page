@@ -1,7 +1,49 @@
 .our-process {
-    &__wrapper {}
-    &__title {}
-    &__subtitle {}
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1115px;
+        margin: 0 auto;
+
+        padding-top: 108px;
+        padding-bottom: 105px;
+    }
+    &__title {
+        color: #212121;
+        font-family: $font-raleway;
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        margin-bottom: 62px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 64px;
+            height: 2px;
+            background-color: $color-main;
+            margin: 56px auto;
+        }
+    }
+    &__subtitle {
+        color: #86878b;
+        font-family: $font-os;
+        font-size: 14px;
+        font-weight: 400;
+
+        margin-bottom: 80px;
+    }
     &__cards {}
-    &__card {}
+    &__card {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
 }
