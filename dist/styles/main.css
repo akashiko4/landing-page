@@ -1,3 +1,7 @@
+/* mixin price-card */
+
+/* END mixin price-card */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -1015,6 +1019,180 @@ ul {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
+}
+
+.card-price {
+  /* cost */
+  /* END cost */
+}
+
+.card-price__tariff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  width: 343px;
+  height: 59px;
+  background-color: #333333;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-price__cost {
+  width: 343px;
+  height: 100px;
+  background-color: #333333;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card-price__currency {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.card-price__value {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 94px;
+  font-weight: 700;
+}
+
+.card-price__subscription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  width: 343px;
+  height: 51px;
+  background-color: #333333;
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.card-price__popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 343px;
+  height: 5px;
+  background-color: #ff9b51;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-price__free-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 343px;
+  height: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card-price__bandwidth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 343px;
+  height: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card-price__websites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 343px;
+  height: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card-price__customization {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 343px;
+  height: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card-price__integration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 343px;
+  height: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card-price__support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 343px;
+  height: 40px;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 36rem) {
