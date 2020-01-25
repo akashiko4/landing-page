@@ -1,0 +1,15 @@
+.headline {
+    &__title {
+        color: #212121;
+        font-family: $font-raleway;
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        color: #86878b;
+        font-family: $font-os;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

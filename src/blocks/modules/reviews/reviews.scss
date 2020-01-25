@@ -1,0 +1,16 @@
+.reviews {
+    &__wrapper {}
+    &__headline {}
+    &__title {}
+    &__subtitle {}
+    &__client-reviews {}
+    &__client-review {}
+}
+
+.client-review {
+    &__comment {}
+    &__author {}
+    &__photo {}
+    &__name {}
+    &__position {}
+}

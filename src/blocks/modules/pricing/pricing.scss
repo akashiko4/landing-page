@@ -1,0 +1,45 @@
+.pricing {
+    @include container;
+    text-align: center;
+    max-width: 1400px;
+    background-color: #f5f5f5;
+    &__wrapper {
+        @include row-flex;
+        justify-content: center;
+
+        width: 100%;
+        max-width: 1110px;
+        margin: 0 auto;
+        padding-top: 108px;
+        padding-bottom: 96px;
+    }
+    &__headline {
+        padding-bottom: 80px;
+    }
+    &__title {
+        margin-bottom: 62px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 64px;
+            height: 2px;
+            background-color: $color-main;
+            margin: 56px auto;
+        }
+    }
+    &__subtitle {}
+    &__cards {
+        @include row-flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        width: 100%;
+        max-width: 1110px;
+    }
+    &__card {}
+}
