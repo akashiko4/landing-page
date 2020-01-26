@@ -7,11 +7,11 @@
       <change beforePath="$PROJECT_DIR$/dist/pages/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/maps/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/maps/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/_modules.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/_modules.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/reviews/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/reviews/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/modules/reviews/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/reviews/reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/social/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/social/social.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/modules/social/social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/modules/social/social.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -26,29 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/footer/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/reviews/reviews.html">
+        <entry file="file://$PROJECT_DIR$/src/blocks/modules/footer/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/reviews/reviews.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="196">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -56,17 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/helpers/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/_modules.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="421">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -109,9 +109,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/blocks/modules/info/info.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/features/features.html" />
-        <option value="$PROJECT_DIR$/src/blocks/modules/social/social.html" />
         <option value="$PROJECT_DIR$/src/blocks/modules/features/features.scss" />
-        <option value="$PROJECT_DIR$/src/blocks/modules/social/social.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.html" />
         <option value="$PROJECT_DIR$/src/blocks/modules/cards/cards.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss" />
@@ -125,11 +123,15 @@
         <option value="$PROJECT_DIR$/src/blocks/modules/card-price/_disabled/card-price__popular_disabled_false.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/card-price/card-price.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/pricing/pricing.scss" />
-        <option value="$PROJECT_DIR$/src/views/index.html" />
         <option value="$PROJECT_DIR$/src/views/pages/page.html" />
         <option value="$PROJECT_DIR$/src/blocks/_modules.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/reviews/reviews.scss" />
         <option value="$PROJECT_DIR$/src/blocks/modules/reviews/reviews.html" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/social/social.html" />
+        <option value="$PROJECT_DIR$/src/views/index.html" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/social/social.scss" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/footer/footer.html" />
+        <option value="$PROJECT_DIR$/src/blocks/modules/footer/footer.scss" />
       </list>
     </option>
   </component>
@@ -176,7 +178,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="our-process" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing-page" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +289,7 @@
       <workItem from="1579775600562" duration="3354000" />
       <workItem from="1579845808158" duration="18726000" />
       <workItem from="1579939897675" duration="11734000" />
-      <workItem from="1580011420418" duration="4882000" />
+      <workItem from="1580011420418" duration="6349000" />
     </task>
     <task id="LOCAL-00001" summary="add futures-three struct">
       <created>1579852887558</created>
@@ -379,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579960090767</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="completed reviews">
+      <created>1580027423139</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580027423139</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47947000" />
+    <option name="totallyTimeSpent" value="49414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +415,7 @@
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09219858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09219858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -412,7 +429,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960598" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960598" weight="0.32827735" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960598" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960598" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500394" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -476,7 +493,8 @@
     <MESSAGE value="fix style price-card, pricing" />
     <MESSAGE value="add struct reviews" />
     <MESSAGE value="fix struct reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix struct reviews" />
+    <MESSAGE value="completed reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed reviews" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Stylelint" />
@@ -526,20 +544,6 @@
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/header/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-354" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="40" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/modules/title/title.scss">
@@ -660,9 +664,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/reviews/reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/reviews/reviews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/pages/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
+        <state relative-caret-position="244">
           <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
         </state>
       </provider>
@@ -670,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/src/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -683,29 +708,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="421">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/our-process/our-process.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="250">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/reviews/reviews.scss">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/social/social.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        <state relative-caret-position="-25">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/modules/reviews/reviews.html">
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/footer/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="421">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/modules/footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>

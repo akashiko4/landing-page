@@ -24,11 +24,13 @@
         line-height: 20px;
     }
     &__network {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 634px;
     }
+}
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 634px;
 }
 .icon {
     cursor: pointer;

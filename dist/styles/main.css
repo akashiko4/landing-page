@@ -589,6 +589,33 @@ ul {
   background: #000000;
 }
 
+.footer {
+  background-color: #212121;
+}
+
+.footer__wrapper {
+  width: 100%;
+  max-width: 317px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.footer__icon {
+  color: #cccccc;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.footer__p {
+  opacity: 0.5;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .main {
   max-width: 1280px;
   margin: 0 auto;
@@ -864,7 +891,7 @@ ul {
   line-height: 20px;
 }
 
-.social__network {
+.socials {
   display: flex;
   justify-content: space-between;
   width: 100%;
