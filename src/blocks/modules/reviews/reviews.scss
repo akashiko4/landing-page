@@ -1,16 +1,106 @@
 .reviews {
-    &__wrapper {}
-    &__headline {}
-    &__title {}
+    @include container;
+    max-width: 1400px;
+    &__wrapper {
+        @include row-flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 1057px;
+        margin: 0 auto;
+        padding-top: 108px;
+        padding-bottom: 101px;
+    }
+    &__headline {
+        width: 100%;
+        max-width: 640px;
+        margin-bottom: 55px;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 62px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 64px;
+            height: 2px;
+            background-color: $color-main;
+            margin: 65px auto;
+        }
+    }
     &__subtitle {}
-    &__client-reviews {}
-    &__client-review {}
+    &__client-reviews {
+        @include row-flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1057px;
+    }
+    &__feedback {}
 }
 
 .feedback {
-    &__comment {}
-    &__author {}
-    &__photo {}
-    &__name {}
-    &__position {}
+    width: 100%;
+    max-width: 273px;
+    &__comment {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        max-width: 273px;
+        background-color: #f5f5f5;
+        margin-bottom: 23px;
+        border-radius: 3px;
+        &:before {
+            content: "";
+            margin-top: 47%;
+            margin-left: -101px;
+            position: absolute;
+            border: 15px solid transparent;
+            border-top-color: #f5f5f5;
+            border-bottom: 0;
+        }
+    }
+    &__p {
+        width: 248px;
+        color: #86878b;
+        font-family: $font-os;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+        margin-top: 24px;
+        margin-bottom: 26px;
+    }
+    &__author {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__photo {
+        width: 70px;
+        height: 70px;
+        background-color: #9a9a9a;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+    &__name {
+        color: #333333;
+        font-family: $font-os;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    &__position {
+        color: #86878b;
+        font-family: $font-os;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }

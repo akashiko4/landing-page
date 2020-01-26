@@ -1077,6 +1077,133 @@ ul {
   font-weight: 400;
 }
 
+.reviews {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  max-width: 1400px;
+}
+
+.reviews__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 1057px;
+  margin: 0 auto;
+  padding-top: 108px;
+  padding-bottom: 101px;
+}
+
+.reviews__headline {
+  width: 100%;
+  max-width: 640px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.reviews__title {
+  margin-bottom: 62px;
+  position: relative;
+}
+
+.reviews__title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 64px;
+  height: 2px;
+  background-color: #ff9b51;
+  margin: 65px auto;
+}
+
+.reviews__client-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1057px;
+}
+
+.feedback {
+  width: 100%;
+  max-width: 273px;
+}
+
+.feedback__comment {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 273px;
+  background-color: #f5f5f5;
+  margin-bottom: 23px;
+  border-radius: 3px;
+}
+
+.feedback__comment:before {
+  content: "";
+  margin-top: 47%;
+  margin-left: -101px;
+  position: absolute;
+  border: 15px solid transparent;
+  border-top-color: #f5f5f5;
+  border-bottom: 0;
+}
+
+.feedback__p {
+  width: 248px;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 24px;
+  margin-bottom: 26px;
+}
+
+.feedback__author {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.feedback__photo {
+  width: 70px;
+  height: 70px;
+  background-color: #9a9a9a;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.feedback__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__name {
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.feedback__position {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .card-price {
   /* cost */
   /* END cost */
