@@ -1,10 +1,11 @@
 // Navigation bar
 .header {
     &__wrapper {
-        @include flexbox-container;
-
+        @include row-flex;
+        @include container;
         align-items: center;
         justify-content: space-around;
+        max-width: 1400px;
         height: 72px;
         background: $color-secondary;
     }
@@ -50,21 +51,40 @@
 
 // Brand information
 .brand {
-    @include flexbox-container;
-
-    align-items: center;
+    @include container;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
     background: #9a9a9a;
+
+    @media (min-width: 20rem) {
+
+    }
     &__wrapper {
-        @include flex-wrapper;
+        @include row-flex;
 
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
         max-width: 1111px;
-        margin-top: 110px;
-        margin-bottom: 133px;
+        padding-top: 110px;
+        padding-bottom: 133px;
+
+        @media (min-width: 20rem) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
     }
     &__brand-bar {
+        @include col;
+        @include size(6);
+        @include size-xl(6);
+        @include size-lg(6);
+        @include size-md(6);
+        @include size-sm(12);
+        @include size-xs(12);
+
         width: 100%;
         max-width: 515px;
     }
@@ -72,13 +92,13 @@
         margin-bottom: 33px;
     }
     &__title {
+        position: relative;
         color: #ffffff;
         font-family: $font-raleway;
         font-size: 36px;
         font-weight: 400;
         text-transform: uppercase;
         margin-bottom: 82px;
-        position: relative;
         &:before {
             content: "";
             position: absolute;
@@ -115,8 +135,33 @@
 
 // sign up
 .sign-up {
-    width: 100%;
-    max-width: 360px;
+    @include col;
+    @include size(5);
+    @include size-xl(5);
+    @include size-lg(5);
+    @include size-md(6);
+    @include size-sm(12);
+    @include size-xs(12);
+
+    @media (min-width: 75rem) {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    @media (min-width: 20rem) {
+        max-width: 600px;
+        margin: 70px auto 0;
+        &__form {
+            width: 100%;
+            max-width: 600px;
+        }
+        &__input {
+            max-width: 500px;
+        }
+        &__button {
+            max-width: 600px;
+        }
+    }
 
     &__title {
         text-align: center;
@@ -157,7 +202,8 @@
         }
     }
     &__button {
-        width: 360px;
+        width: 100%;
+        max-width: 360px;
         height: 54px;
         border: 0;
         background: $color-main;

@@ -402,12 +402,16 @@ ul {
 
 .header__wrapper {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 1400px;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  max-width: 1280px;
   margin: 0 auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   align-items: center;
   justify-content: space-around;
+  max-width: 1400px;
   height: 72px;
   background: #000000;
 }
@@ -452,29 +456,36 @@ ul {
 }
 
 .brand {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
-  align-items: center;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
   background: #9a9a9a;
 }
 
 .brand__wrapper {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   max-width: 1111px;
-  margin-top: 110px;
-  margin-bottom: 133px;
+  padding-top: 110px;
+  padding-bottom: 133px;
 }
 
 .brand__brand-bar {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  width: calc(50% - 1.875rem);
   width: 100%;
   max-width: 515px;
 }
@@ -484,13 +495,13 @@ ul {
 }
 
 .brand__title {
+  position: relative;
   color: #ffffff;
   font-family: "Raleway";
   font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 82px;
-  position: relative;
 }
 
 .brand__title:before {
@@ -528,8 +539,11 @@ ul {
 }
 
 .sign-up {
-  width: 100%;
-  max-width: 360px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  width: calc(41.66667% - 1.875rem);
 }
 
 .sign-up__title {
@@ -579,7 +593,8 @@ ul {
 }
 
 .sign-up__button {
-  width: 360px;
+  width: 100%;
+  max-width: 360px;
   height: 54px;
   border: 0;
   background: #ff9b51;
@@ -846,18 +861,6 @@ ul {
 
 /* END section futures-three */
 
-.logo___image {
-  width: 100%;
-}
-
-.button {
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 15px;
-  font-weight: 400;
-  cursor: pointer;
-}
-
 .social {
   display: flex;
   flex-direction: row;
@@ -937,20 +940,6 @@ ul {
 
 /* END icons style */
 
-.info__title {
-  color: #000000;
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.info__subtitle {
-  color: #86878b;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .our-process__wrapper {
   display: flex;
   flex-direction: column;
@@ -986,51 +975,6 @@ ul {
 
 .our-process__card:not(:last-child) {
   margin-right: 30px;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -0.9375rem;
-  margin-right: -0.9375rem;
-}
-
-.card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  max-width: 350px;
-}
-
-.card__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70px;
-  height: 70px;
-  border: 2px solid #ff9b51;
-  color: #ff9b51;
-  font-size: 32px;
-  border-radius: 50%;
-  margin-bottom: 29px;
-}
-
-.card__title {
-  color: #333333;
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}
-
-.card__subtitle {
-  text-align: center;
-  color: #86878b;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
 }
 
 .pricing {
@@ -1087,21 +1031,6 @@ ul {
   justify-content: space-between;
   width: 100%;
   max-width: 1110px;
-}
-
-.headline__title {
-  color: #212121;
-  font-family: "Raleway";
-  font-size: 36px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.headline__subtitle {
-  color: #86878b;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
 }
 
 .reviews {
@@ -1225,6 +1154,92 @@ ul {
 }
 
 .feedback__position {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.logo___image {
+  width: 100%;
+}
+
+.button {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.info__title {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info__subtitle {
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+
+.card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff9b51;
+  color: #ff9b51;
+  font-size: 32px;
+  border-radius: 50%;
+  margin-bottom: 29px;
+}
+
+.card__title {
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.card__subtitle {
+  text-align: center;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.headline__title {
+  color: #212121;
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.headline__subtitle {
   color: #86878b;
   font-family: "Open Sans";
   font-size: 14px;
@@ -1402,9 +1417,52 @@ ul {
   height: 40px;
 }
 
+@media (min-width: 20rem) {
+  .brand__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .sign-up {
+    max-width: 600px;
+    margin: 70px auto 0;
+  }
+
+  .sign-up__form {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .sign-up__input {
+    max-width: 500px;
+  }
+
+  .sign-up__button {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 20rem) {
+  .brand__brand-bar {
+    width: calc(100% - 1.875rem);
+  }
+
+  .sign-up {
+    width: calc(100% - 1.875rem);
+  }
+}
+
 @media screen and (min-width: 36rem) {
   .container {
     max-width: 31.875rem;
+  }
+
+  .brand__brand-bar {
+    width: calc(100% - 1.875rem);
+  }
+
+  .sign-up {
+    width: calc(100% - 1.875rem);
   }
 }
 
@@ -1412,17 +1470,48 @@ ul {
   .container {
     max-width: 43.125rem;
   }
+
+  .brand__brand-bar {
+    width: calc(50% - 1.875rem);
+  }
+
+  .sign-up {
+    width: calc(50% - 1.875rem);
+  }
 }
 
 @media screen and (min-width: 62rem) {
   .container {
     max-width: 58.125rem;
   }
+
+  .brand__brand-bar {
+    width: calc(50% - 1.875rem);
+  }
+
+  .sign-up {
+    width: calc(41.66667% - 1.875rem);
+  }
 }
 
 @media screen and (min-width: 75rem) {
   .container {
     max-width: 69.375rem;
+  }
+
+  .brand__brand-bar {
+    width: calc(50% - 1.875rem);
+  }
+
+  .sign-up {
+    width: calc(41.66667% - 1.875rem);
+  }
+}
+
+@media (min-width: 75rem) {
+  .sign-up {
+    width: 100%;
+    max-width: 360px;
   }
 }
 /*# sourceMappingURL=maps/main.css.map */
